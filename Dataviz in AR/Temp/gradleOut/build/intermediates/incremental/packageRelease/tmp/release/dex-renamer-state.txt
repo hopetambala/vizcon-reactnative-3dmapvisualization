@@ -1,4 +1,0 @@
-#Wed Jan 15 13:45:34 EST 2020
-base.0=/Users/hopetambala/Documents/development/work/libviz/unityAR-datavisualization/[VizCons] Dataviz in AR/Temp/gradleOut/build/intermediates/transforms/dexMerger/release/0
-path.0=classes.dex
-renamed.0=classes.dex
