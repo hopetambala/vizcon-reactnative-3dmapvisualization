@@ -28,3 +28,8 @@ If ngrok isn't already running, you can start it by running the follow command i
 ```
 ngrok http 8081
 ```
+
+## Resources
+
+[Viro Media](https://blog.viromedia.com/)
+[Viro Github Repo](https://github.com/viromedia/viro)
