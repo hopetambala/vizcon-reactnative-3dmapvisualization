@@ -30,7 +30,7 @@ export default class HelloWorldSceneAR extends Component {
   render() {
     let boxes = [];
 
-    for (let j = 0; j < 50; j++) {
+    for (let j = 0; j < 200; j++) {
       boxes.push(<ViroBox key={String(j)} position={[this.getRandomFloat(this.state.min,this.state.max),this.getRandomFloat(this.state.min,this.state.max),this.getRandomFloat(this.state.min,this.state.max)]} scale={[.3, .3, .1]} materials={["grid"]} />)
     }  
 
@@ -46,7 +46,7 @@ export default class HelloWorldSceneAR extends Component {
   _onInitialized = (state, reason) => {
     if (state == ViroConstants.TRACKING_NORMAL) {
       this.setState({
-        text : "Hello World!"
+        text : "I'm a Viz!"
       });
     } else if (state == ViroConstants.TRACKING_NONE) {
       // Handle loss of tracking
