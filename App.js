@@ -16,7 +16,7 @@ import {
 
 
 // Sets the default scene you want for AR and VR
-var InitialARScene = require('./js/HelloWorldSceneAR');
+var InitialARScene = require('./js/ARPerfTest/HelloWorldSceneAR');
 var CarARScene = require('./js/ARCarDemo/ARCarDemo.js');
 
 export default class ViroSample extends Component {
